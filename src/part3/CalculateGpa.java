@@ -22,7 +22,7 @@ public class CalculateGpa {
 		 char[] Marks=marks.toCharArray();
 		 double AvgD=0,AvgM=0,AvgP=0;
 		 double d=0,m=0,p=0;
-		 for (int i=0; i<=num ; i++)
+		 for (int i=0; i<num ; i++)
 		 {
 			 if(Marks[i]=='d' || Marks[i]=='D')
 			 {
@@ -42,7 +42,7 @@ public class CalculateGpa {
 			 
 		 }
 		 int SumHrs=0;
-		 for(int y=0; y<=num; y++) {
+		 for(int y=0; y<num; y++) {
 			 SumHrs=SumHrs+HRS[y];
 		 }
 		 double sumAvg= AvgD+AvgP+AvgM;
