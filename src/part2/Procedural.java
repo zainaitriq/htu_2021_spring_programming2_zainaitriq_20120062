@@ -2,8 +2,11 @@ package part2;
 
 public class Procedural {
 	public static void main(String[] args) {
+		int y;
 		System.out.println(SumDigit(25));
 		System.out.println(SumChar("zaina"));
+		y=SumDigit(67);
+		System.out.println(y);
 	}
 
 	 static int SumDigit(int x) {
