@@ -10,22 +10,22 @@ public class Procedural {
 	}
 
 	 static int SumDigit(int x) {
-		 int z=0;
+		 int sum=0;
 		String y = Integer.toString(x);
 		int[] number = new int[y.length()];
 		for (int i = 0; i < y.length(); i++) {
 		    number[i] = y.charAt(i) - '0';
-		   z=z+number[i];
+		   sum=sum+number[i];
 		}
-		return z;
+		return sum;
 	}
 	 static int SumChar(String word) {
 		char[] word2= word.toCharArray();
-		int y=0;
+		int sum=0;
 		for(char c:word2 ) {
-			y++;
+			sum++;
 		}
-		return y;
+		return sum;
 	}
 	
 }
