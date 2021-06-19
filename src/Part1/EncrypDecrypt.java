@@ -11,24 +11,24 @@ public class EncrypDecrypt {
 		 String data = word.nextLine();
 		 
 		 char[] encrypt= data.toCharArray();
-		 String y="";
+		 String e="";
 		 
 		for(char c:encrypt )
 		{
 			c+=9;	
-			y=y+c;
+			e=e+c;
 		}
 		 System.out.println("the encryption of "+data);
 		 System.out.println(y);
 		 System.out.println("the original word>");
 		 char[] decrypt= y.toCharArray();
-		 String x="";
+		 String d="";
 		for(char c:decrypt )
 		{
 			c-=9;	
-			x=x+c;
+			d=d+c;
 		}
-		System.out.println(x);
+		System.out.println(d);
 	}
 
 }
