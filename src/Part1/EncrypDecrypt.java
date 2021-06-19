@@ -19,9 +19,9 @@ public class EncrypDecrypt {
 			e=e+c;
 		}
 		 System.out.println("the encryption of "+data);
-		 System.out.println(y);
+		 System.out.println(e);
 		 System.out.println("the original word>");
-		 char[] decrypt= y.toCharArray();
+		 char[] decrypt= e.toCharArray();
 		 String d="";
 		for(char c:decrypt )
 		{
